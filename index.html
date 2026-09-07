@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp"
+      rel="stylesheet"
+    />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <aside>
+        <div class="toggle">
+          <div class="logo">
+            <img src="img/logo.png" />
+            <h2>Dashboard<span class="danger"> Employee</span></h2>
+          </div>
+          <div class="close">
+            <span class="material-symbols-sharp">close</span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="#">
+            <span class="material-symbols-sharp">dashboard</span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">person_outline</span>
+            <h3>Profile</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">receipt_long</span>
+            <h3>History</h3>
+          </a>
+          <a href="#" class="active">
+            <span class="material-symbols-sharp">insights</span>
+            <h3>Analytics</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">mail_outline</span>
+            <h3>Tickets</h3>
+            <span class="massage-count">30</span>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">inventory</span>
+            <h3>Sale List</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">report_gmailerrorred</span>
+            <h3>Reports</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">settings</span>
+            <h3>Settings</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">add</span>
+            <h3>New Users</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-sharp">logout</span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+      <!-- Sidebar ends -->
+
+      <!-- Main content -->
+      <main>
+        <h1>Analytics</h1>
+        <div class="analyse">
+          <div class="sales">
+            <div class="status">
+              <div class="info">
+                <h3>Total Sales</h3>
+                <h1>$64,200</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="percentage">
+                  <p>+79%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="visits">
+            <div class="status">
+              <div class="info">
+                <h3>Total Visits</h3>
+                <h1>12,450</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="percentage">
+                  <p>+61%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="search">
+            <div class="status">
+              <div class="info">
+                <h3>Searches</h3>
+                <h1>8,920</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="percentage">
+                  <p>+85%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Analytics -->
+
+        <!-- New Users -->
+        <div class="new-users">
+          <h2>New Users</h2>
+          <div class="users-list">
+            <div class="user">
+              <img src="img/user1.jpg" />
+              <h2>John Doe</h2>
+              <p>30 Min Ago</p>
+            </div>
+            <div class="user">
+              <img src="img/user2.jpg" />
+              <h2>Jack Newgate</h2>
+              <p>1 Hour Ago</p>
+            </div>
+            <div class="user">
+              <img src="img/user3.jpg" />
+              <h2>Ragnar Loth</h2>
+              <p>12 Min Ago</p>
+            </div>
+            <div class="user">
+              <img src="img/user4.jpg" />
+              <h2>Jonathan Dails</h2>
+              <p>7 Hours Ago</p>
+            </div>
+            <div class="user">
+              <a href="#">
+                <img src="img/plus.png" />
+              </a>
+              <h2>More</h2>
+              <p>New Users</p>
+            </div>
+          </div>
+        </div>
+        <!-- ends of new users -->
+
+        <!-- Recent Orders Tables -->
+        <div class="recent-orders">
+          <h2>Recent Orders</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Course Name</th>
+                <th>Course Numbers</th>
+                <th>Payment</th>
+                <th>Status</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <a href="#">Show All</a>
+        </div>
+        <!-- End of recent orders tables -->
+      </main>
+      <!-- end of main section -->
+
+      <!-- Right Section -->
+      <div class="right-section">
+        <!-- Right nav -->
+        <div class="nav">
+          <button id="menu-btn">
+            <span class="material-symbols-sharp">menu</span>
+          </button>
+          <div class="dark-mode">
+            <span class="material-symbols-sharp active">light_mode</span>
+            <span class="material-symbols-sharp">dark_mode</span>
+          </div>
+          <div class="profile">
+            <div class="info">
+              <p>Hey, <b>Rontz</b></p>
+              <small>
+                <div class="text-muted">Admin</div>
+              </small>
+            </div>
+            <div class="profile-photo">
+              <img src="img/profil.png" />
+            </div>
+          </div>
+        </div>
+        <!-- end of nav -->
+        <div class="user-profile">
+          <div class="logo">
+            <img src="img/logo.png" />
+            <h2>Dashboard Employee</h2>
+            <p>Fullstack Web Developer</p>
+          </div>
+        </div>
+        <div class="reminders">
+          <div class="header">
+            <h2>Reminders</h2>
+            <span class="material-symbols-sharp">notifications_none</span>
+          </div>
+        </div>
+
+        <div class="notification">
+          <div class="icon">
+            <span class="material-symbols-sharp">volume_up</span>
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Workshop</h3>
+              <small class="text-muted"> 08.00 AM - 04.00 PM </small>
+            </div>
+            <span class="material-symbols-sharp">more_vert</span>
+          </div>
+        </div>
+
+        <div class="notification deactive">
+          <div class="icon">
+            <span class="material-symbols-sharp">edit</span>
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Workshop</h3>
+              <small class="text-muted"> 08.00 AM - 04.00 PM </small>
+            </div>
+            <span class="material-symbols-sharp">more_vert</span>
+          </div>
+        </div>
+
+        <div class="notification add-reminder">
+          <div>
+            <span class="material-symbols-sharp">add</span>
+            <h3>Add Reminders</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="orders.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

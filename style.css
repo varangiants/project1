@@ -372,6 +372,7 @@ main table tbody tr:last-child td {
 }
 
 main .recent-orders a {
+  justify-content: center;
   text-align: center;
   display: flex;
   margin: 1rem auto;

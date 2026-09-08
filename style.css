@@ -430,6 +430,7 @@ main .recent-orders a {
   height: 2.8rem;
   border-radius: 50%;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .right-section .user-profile {
@@ -477,6 +478,13 @@ main .recent-orders a {
   box-shadow: var(--box-shadow-1);
   background-color: var(--color-white);
   border-radius: 50%;
+  box-shadow: var(--box-shadow-1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.right-section .reminders .header span:hover {
+  box-shadow: none;
 }
 
 .right-section .notification {
